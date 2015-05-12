@@ -11,7 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         
-    <?php require_once ("menu.php"); ?>
+    <?php require_once ("menu.php");
+	echo 'teste commit';			
+     ?>
         <div>
             <h1>Home</h1>
         </div>
