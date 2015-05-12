@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         
     <?php require_once ("menu.php");
-	echo 'teste commit';			
+	echo 'teste2 commit';			
      ?>
         <div>
             <h1>Home</h1>
