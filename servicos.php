@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Aula</title>
@@ -9,7 +8,7 @@
   <body>
      <?php require_once ("menu.php");?>
         <div>
-           <h1>Home</h1>
+           <h1>Serviços</h1>
         </div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
