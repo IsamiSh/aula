@@ -1,4 +1,4 @@
-<div class="navbar">
+<div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <ul class="nav">
       <li class="active"><a href="index.php">Home</a></li>
