@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Aula PHP</title>
+        <title>Aula</title>
             <?php require_once ("configuracao.php");?>
     </head>
     <body>
