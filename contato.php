@@ -11,8 +11,21 @@ and open the template in the editor.
     </head>
     <body>
     <?php require_once ("menu.php"); ?>
-        <div>
-            <h1>Contato</h1>
+        <div class="span5 offset5">
+            <form>
+                <fieldset>
+                    <legend>Contato</legend>
+                        <label>Nome:</label>
+                            <input type="text" placeholder="Nome Completo">
+                        <label>E-mail:</label>
+                            <input type="text" placeholder="E-mail">
+                        <label>Assunto:</label>
+                            <input type="text" placeholder="Assunto">
+                        <label>Mensagem:</label>
+                            <textarea rows="5" cols="10" class="span5"></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </fieldset>
+            </form>
         </div>
     </body>
 </html>
