@@ -12,17 +12,17 @@ and open the template in the editor.
     <body>
     <?php require_once ("menu.php"); ?>
         <div class="span5 offset5">
-            <form>
+            <form action="formulario.php" method="POST">
                 <fieldset>
                     <legend>Contato</legend>
                         <label>Nome:</label>
-                            <input type="text" placeholder="Nome Completo">
+                            <input type="text" name="nome" placeholder="Nome Completo">
                         <label>E-mail:</label>
-                            <input type="text" placeholder="E-mail">
+                            <input type="text" name="email" placeholder="E-mail">
                         <label>Assunto:</label>
-                            <input type="text" placeholder="Assunto">
+                            <input type="text" name="assunto" placeholder="Assunto">
                         <label>Mensagem:</label>
-                            <textarea rows="5" cols="10" class="span5"></textarea>
+                            <textarea rows="5" cols="10" name="mensagem" class="span5"></textarea>
                     <button type="submit" class="btn">Enviar</button>
                 </fieldset>
             </form>
