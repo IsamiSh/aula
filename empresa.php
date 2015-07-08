@@ -8,5 +8,6 @@
         <div>
            <h1>Empresa</h1>
         </div>
+     <?php require_once ("rodape.php");?>
   </body>
 </html>
