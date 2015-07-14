@@ -6,7 +6,8 @@
   <body>
      <?php require_once ("menu.php");?>
         <div>
-           <h1>Empresa</h1>
+            <?php header ("HTTP/1.0 404 Not Found"); ?>
+           <h1>ERRO 404 PÁGINA NÃO ENCONTRADA</h1>
         </div>
       <?php require_once ("rodape.php");?>
   </body>
