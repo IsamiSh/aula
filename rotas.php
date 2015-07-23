@@ -9,10 +9,9 @@ $path = str_replace("/","", $rota['path']);
         'empresa' => 'empresa.php',
         'produto' => 'produto.php',
         'servicos' => 'servicos.php',
-        'home' => 'index.php',
-        'index' => 'index.php',
-        'index.php' => 'index.php',
-        'erro' => 'erro.php'   
+        'home' => 'home.php',
+        'index' => 'home.php',
+        'index.php' => 'home.php'  
     );
          if ($a[$path]) {
               return require_once ($a[$path]);
@@ -21,7 +20,7 @@ $path = str_replace("/","", $rota['path']);
               return require_once ($a['home']);
           }
           else {
-              return require_once ($a['erro']);
+              return header("Location:erro.php");
           }
     }
 ?>
