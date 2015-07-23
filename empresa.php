@@ -1,13 +1,5 @@
-<html>
-  <head>
-    <title>Aula</title>
-        <?php require_once ("configuracao.php");?>
-  </head>
-  <body>
-     <?php require_once ("menu.php");?>
+<?php require_once ("rotas.php");?>
+<?php $b = rotas($path) ?>
         <div>
            <h1>Empresa</h1>
         </div>
-      <?php require_once ("rodape.php");?>
-  </body>
-</html>

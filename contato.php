@@ -4,13 +4,8 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
-        <title>Aula</title>
-            <?php require_once ("configuracao.php");?>
-    </head>
-    <body>
-    <?php require_once ("menu.php"); ?>
+<?php require_once ("rotas.php");?>
+<?php $b = rotas($path) ?>
         <div class="span5 offset5">
             <form action="formulario.php" method="POST">
                 <fieldset>
@@ -27,6 +22,4 @@ and open the template in the editor.
                 </fieldset>
             </form>
         </div>
-        <?php require_once ("rodape.php");?>
-    </body>
-</html>
+      

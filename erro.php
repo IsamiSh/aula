@@ -12,3 +12,4 @@
       <?php require_once ("rodape.php");?>
   </body>
 </html>
+<?php die;?>
