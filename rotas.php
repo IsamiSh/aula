@@ -9,6 +9,7 @@ $path = str_replace("/","", $rota['path']);
         'empresa' => 'empresa.php',
         'produto' => 'produto.php',
         'servicos' => 'servicos.php',
+        'formulario' => 'formulario.php',
         'home' => 'home.php',
         'index' => 'home.php',
         'index.php' => 'home.php'  
