@@ -14,7 +14,7 @@ $path = str_replace("/","", $rota['path']);
         'index' => 'home.php',
         'index.php' => 'home.php'  
     );
-         if ($a[$path]) {
+         if (isset($a[$path])) {
               return require_once ($a[$path]);
           }
           elseif (!$path) {
